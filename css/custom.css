@@ -1,0 +1,91 @@
+html, body{
+height: 100%;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+}
+.container h1{
+	color: #994D1C;
+}
+main{
+	flex:1 0 auto;
+}
+
+footer{
+	flex-shrink: 0;
+}
+header{
+	background: no-repeat center center;
+	background-size: cover;
+	color: white;
+}
+
+.color-overlay{
+	background-color: rgba(0, 0, 0, 0.4);
+	min-height: 60vh;
+
+}
+
+.singleCol{
+	max-width: 765px;
+
+}
+
+footer{
+	background-color: #3a3a3a;
+	color: white;
+}
+
+footer a {
+	color: white;
+}
+
+footer a:hover{
+	color: #dfdfdf;
+}
+.btn-outline-dark{
+	background-color:#DED0B6;
+	color: black;
+}
+.btn-outline-dark:hover {
+	background-color: #BBAB8C ;
+}
+.carpe-diem {
+	font-family: sans-serif;
+	font-size: 12vw;
+	letter-spacing: -22px;
+	opacity: .5;
+}
+.text-center{
+	filter: saturation(.9);
+}
+#navbarNav ul li a:hover{ 
+	background-color: #6b4930ff;
+	color: white;
+	border-radius: 10px;
+	transition: 1s ease;
+}
+/* portfolio */
+.card-body {
+	background-color: #994D1C;
+}
+.card-title {
+	color: #dfdfdf;
+}
+.card-text {
+	color: #DED0B6;
+}
+main {
+	background-color:#e8dabfff;
+}
+footer{
+	background-color:#6b4930ff ;
+}
+@media (max-width: 768px){
+	.color-overlay{
+		min-height: 30vh;
+	}
+}
+
